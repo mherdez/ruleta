@@ -19,7 +19,6 @@ function createWheel() {
   let slidesPorcent = slidesDeg + 15;
   document.documentElement.style.setProperty('--slidesDeg', `${slidesDeg}deg`);
   document.documentElement.style.setProperty('--slidesPorcent', `${slidesPorcent}%`);
-  console.log(slides, slidesDeg, slidesPorcent)
 }
 
 spinBtn.addEventListener('click', () => {
