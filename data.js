@@ -1,33 +1,33 @@
 // 4 Lables mínimo
 export const labels = [
-    {
-      "id": 1,
-      "name": "Gamificación",
-      "color": "#bd7093"
-    },
+    // {
+    //   "id": 1,
+    //   "name": "Gamificación",
+    //   "color": "#bd7093"
+    // },
     {
       "id": 2,
-      "name": "Proyecto",
-      "color": "#20b2aa"
+      "name": "🛠 Proyecto",
+      "color": "SteelBlue"
     },
     {
       "id": 3,
-      "name": "Ludificación",
-      "color": "#daa520"
+      "name": "🎮 Juego",
+      "color": "MediumSeaGreen"
     },
     {
       "id": 4,
-      "name": "Colaborativo",
-      "color": "#ff340f"
+      "name": "🤼‍♀️ Reto",
+      "color": "DarkGoldenrod"
     },
     {
       "id": 5,
-      "name": "Experiencial",
-      "color": "#3cb371"
+      "name": "🎬 Acción",
+      "color": "PaleVioletRed	"
     },
     {
       "id": 6,
-      "name": "Casos",
-      "color": "#4168e1"
+      "name": "📚 Casos",
+      "color": "DarkRed"
     },
   ]

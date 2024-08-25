@@ -3,6 +3,7 @@
 :root {
   --slidesDeg: 60deg;
   --slidesPorcent: 75%;
+  --size: calc(100vh / 1.5);
 }
 * {
   margin: 0;
@@ -20,8 +21,8 @@ body {
 }
 .container {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: var(--size);
+  height: var(--size);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +90,7 @@ body {
   margin-top: 20px;
   margin-right: -25px;
   transform: rotate(45deg);
-  font-size: 1.1rem;
+  font-size: calc(var(--size) / 20);
   color: white;
   z-index: 2;
 }
