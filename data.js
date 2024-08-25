@@ -27,7 +27,7 @@ export const labels = [
     },
     {
       "id": 6,
-      "name": "📚 Casos",
+      "name": "📚 Caso",
       "color": "DarkRed"
     },
   ]
