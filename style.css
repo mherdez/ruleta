@@ -81,10 +81,6 @@ body {
   user-select: none;
   cursor: pointer;
 }
-
-.container .wheel .number img {
-  display: none;
-}
 .container .wheel .number span {
   position: relative;
   margin-top: 20px;
