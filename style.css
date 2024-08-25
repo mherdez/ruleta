@@ -86,7 +86,7 @@ body {
   margin-top: 20px;
   margin-right: -25px;
   transform: rotate(45deg);
-  font-size: calc(var(--size) / 20);
+  font-size: 1.4rem;
   color: white;
   z-index: 2;
   text-shadow: 3px 3px 5px rgba(0,0,0,.75);
