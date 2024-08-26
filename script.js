@@ -4,6 +4,16 @@ let wheel = document.querySelector('.wheel');
 let spinBtn = document.querySelector('.spinBtn');
 let value = Math.ceil(Math.random() * 3600);
 
+function viewScreen() {
+  let viewHeight = screen.height;
+  let viewWeight = screen.width;
+  console.log(viewWeight);
+
+  // if (viewWeight > viewHeight) {
+    return ['100%', '2.5rem'];
+  // }
+}
+
 function createWheel() {
   labels.map( label => {
     let wheelElement = document.createElement('div');
@@ -19,11 +29,15 @@ function createWheel() {
   let slidesPorcent = slidesDeg + 15;
   document.documentElement.style.setProperty('--slidesDeg', `${slidesDeg}deg`);
   document.documentElement.style.setProperty('--slidesPorcent', `${slidesPorcent}%`);
+  // document.documentElement.style.setProperty('--size', `${viewScreen()[0]}`);
+  // document.documentElement.style.setProperty('--text', `${viewScreen()[1]}`);
+  // console.log(viewScreen());
 }
 
 spinBtn.addEventListener('click', () => {
   wheel.style.transform = `rotate(${value}deg)`;
   value += Math.ceil(Math.random() * 3600);
 });
+
 
 createWheel();
